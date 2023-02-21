@@ -4,21 +4,23 @@
 /**
  * main-Entry
  *
- * Description: This code will print tebahpla
+ * Description: This code will print numbers in base 16
  *
  * Return: 0
  */
+
 int main(void)
-
 {
-	int d;
+	int r;
 
-	for (d = 'z'; d >= 'a'; d--)
-
+	for (r = '0'; r <= '9'; r++)
 	{
-		putchar(d);
+		putchar(r);
 	}
-	putchar('\n');
-
-	return (0);
+		for (r = 'a'; r <= 'f'; r++)
+		{
+			putchar(r);
+		}
+		putchar('\n');
+		return (0);
 }
