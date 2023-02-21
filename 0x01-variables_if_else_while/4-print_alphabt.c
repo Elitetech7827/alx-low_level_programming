@@ -2,21 +2,20 @@
 /**
  * main - entry point
  *
- * Description: 'alphabet in lowercase except e and q'
+ * Description: prints the alphabet in lowercase except e and q
  *
- * Return: o (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int i = 97;
+	int i;
 
-	while (i <= 122)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (i == 101 || i == 113)
+		if (i == 'e' || i == 'q')
 			continue;
 		putchar(i);
-		i++;
 	}
 	putchar('\n');
-	return (0);
+		return (0);
 }
