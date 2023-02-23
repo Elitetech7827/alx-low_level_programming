@@ -1,1 +1,1 @@
-who de check
+more functions and more nested loops
